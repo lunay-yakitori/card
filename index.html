@@ -181,7 +181,7 @@
         let selectedCards = [];
         let initialGrid = Array(15).fill(null); // Initial card grid
         let newGrid = Array(15).fill(null); // New card grid
-        let userGridNumbers = Array(15).fill(1); // Store number values (1-15) for initial grid
+        let userGridNumbers = Array(15).fill(0); // Store number values (0-15) for initial grid, default to 0
         let userGridAttributes = Array(15).fill(''); // Store attribute values for attribute planner
         let currentGridCell = null; // Track which cell is being edited
         let currentGridId = null; // Track which grid is being edited
@@ -245,7 +245,7 @@
         // Initialize the grids for the new layout
         function initializeGrids() {
             // Initialize default values for dropdowns
-            userGridNumbers = Array(15).fill().map((_, i) => i + 1); // 1 to 15
+            userGridNumbers = Array(15).fill(0); // Default to 0 for all positions
             userGridAttributes = Array(15).fill(''); // Default to empty (none)
             
             createInitialGrid();
@@ -300,6 +300,7 @@
                                 // Display the assigned card
                                 const card = gridData[index];
                                 cell.innerHTML = `
+                                    <button class="delete-card-btn" onclick="deleteCard(${index}, '${gridId}')" title="Delete card">×</button>
                                     <div class="grid-card">
                                         <div class="grid-card-image">
                                             ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
@@ -326,23 +327,26 @@
                             // Number dropdown (1-15) for first column
                             const cardIndex = Math.floor(row / 2) * 5 + col;
                             if (cardIndex < 15) {
+                                dropdownContainer.dataset.number = userGridNumbers[cardIndex] || 0;
                                 console.log(`Creating number dropdown at row ${row}, col ${col} for card index ${cardIndex}`);
                                 const numberDropdown = document.createElement('select');
                                 numberDropdown.className = 'grid-dropdown number-dropdown';
                                 numberDropdown.dataset.index = cardIndex;
                                 numberDropdown.onchange = (e) => updateGridNumber(cardIndex, e.target.value);
                                 
-                                // Add options 1-15
-                                for (let num = 1; num <= 15; num++) {
+                                // Add options 0-15
+                                for (let num = 0; num <= 15; num++) {
                                     const option = document.createElement('option');
                                     option.value = num;
                                     option.textContent = num;
                                     numberDropdown.appendChild(option);
                                 }
                                 
-                                // Set current value if exists
-                                if (userGridNumbers[cardIndex]) {
+                                // Set current value if exists, otherwise default to 0
+                                if (userGridNumbers[cardIndex] !== undefined) {
                                     numberDropdown.value = userGridNumbers[cardIndex];
+                                } else {
+                                    numberDropdown.value = 0;
                                 }
                                 
                                 dropdownContainer.appendChild(numberDropdown);
@@ -419,6 +423,7 @@
                             }
                             
                             cardCell.innerHTML = `
+                                <button class="delete-card-btn" onclick="deleteCard(${index}, 'initialCardGrid')" title="Delete card">×</button>
                                 <div class="grid-card">
                                     <div class="grid-card-image">
                                         ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
@@ -436,23 +441,26 @@
                         // ID row (rows 1, 3, 5)
                         const dropdownContainer = document.createElement('div');
                         dropdownContainer.className = 'dropdown-container';
+                        dropdownContainer.dataset.number = userGridNumbers[index] || 0;
                         
                         const numberDropdown = document.createElement('select');
                         numberDropdown.className = 'grid-dropdown number-dropdown';
                         numberDropdown.dataset.index = index;
                         numberDropdown.onchange = (e) => updateGridNumber(index, e.target.value);
                         
-                        // Add options 1-15
-                        for (let num = 1; num <= 15; num++) {
+                        // Add options 0-15
+                        for (let num = 0; num <= 15; num++) {
                             const option = document.createElement('option');
                             option.value = num;
                             option.textContent = num;
                             numberDropdown.appendChild(option);
                         }
                         
-                        // Set current value if exists
-                        if (userGridNumbers[index]) {
+                        // Set current value if exists, otherwise default to 0
+                        if (userGridNumbers[index] !== undefined) {
                             numberDropdown.value = userGridNumbers[index];
+                        } else {
+                            numberDropdown.value = 0;
                         }
                         
                         dropdownContainer.appendChild(numberDropdown);
@@ -462,60 +470,157 @@
             }
         }
 
-        // Create the attribute planner grid (1x15)
+        // Create the attribute planner grid (2x15 - attributes row + cards row)
         function createAttributePlanner() {
             const grid = document.getElementById('attributePlanner');
             grid.innerHTML = '';
             
-            // Create 1x15 grid
-            for (let i = 0; i < 15; i++) {
-                const cell = document.createElement('div');
-                cell.className = 'attribute-planner-cell';
-                
-                // Show the ID number
-                const idLabel = document.createElement('div');
-                idLabel.className = 'id-label';
-                idLabel.textContent = i + 1;
-                cell.appendChild(idLabel);
-                
-                // Attribute dropdown
-                const attributeDropdown = document.createElement('select');
-                attributeDropdown.className = 'grid-dropdown attribute-dropdown';
-                attributeDropdown.dataset.index = i;
-                attributeDropdown.onchange = (e) => updateGridAttribute(i, e.target.value);
-                
-                // Add attribute options with "none" as default
-                const attributes = ['', 'Logic', 'Empathy', 'Intuition'];
-                const attributeDisplayNames = {
-                    '': 'None',
-                    'Logic': '🔹 Logic',
-                    'Empathy': '❤️ Empathy',
-                    'Intuition': '🌲 Intuition'
-                };
-                attributes.forEach(attr => {
-                    const option = document.createElement('option');
-                    option.value = attr;
-                    option.textContent = attributeDisplayNames[attr];
-                    attributeDropdown.appendChild(option);
-                });
-                
-                // Set current value if exists
-                if (userGridAttributes[i]) {
-                    attributeDropdown.value = userGridAttributes[i];
-                } else {
-                    attributeDropdown.value = ''; // Default to "none"
+            // Create 2x15 grid (2 rows, 15 columns)
+            for (let row = 0; row < 2; row++) {
+                for (let col = 0; col < 15; col++) {
+                    const index = col; // Column index represents the ID (1-15)
+                    
+                    if (row === 0) {
+                        // Attribute row (row 0)
+                        const cell = document.createElement('div');
+                        cell.className = 'attribute-planner-cell';
+                        
+                        // Show the ID number
+                        const idLabel = document.createElement('div');
+                        idLabel.className = 'id-label';
+                        idLabel.textContent = index + 1;
+                        cell.appendChild(idLabel);
+                        
+                        // Attribute dropdown
+                        const attributeDropdown = document.createElement('select');
+                        attributeDropdown.className = 'grid-dropdown attribute-dropdown';
+                        attributeDropdown.dataset.index = index;
+                        attributeDropdown.onchange = (e) => updateGridAttribute(index, e.target.value);
+                        
+                        // Add attribute options with "none" as default
+                        const attributes = ['', 'Logic', 'Empathy', 'Intuition'];
+                        const attributeDisplayNames = {
+                            '': 'None',
+                            'Logic': '🔹 Logic',
+                            'Empathy': '❤️ Empathy',
+                            'Intuition': '🌲 Intuition'
+                        };
+                        attributes.forEach(attr => {
+                            const option = document.createElement('option');
+                            option.value = attr;
+                            option.textContent = attributeDisplayNames[attr];
+                            attributeDropdown.appendChild(option);
+                        });
+                        
+                        // Set current value if exists
+                        if (userGridAttributes[index]) {
+                            attributeDropdown.value = userGridAttributes[index];
+                        } else {
+                            attributeDropdown.value = ''; // Default to "none"
+                        }
+                        
+                        // Apply attribute-based coloring to the cell
+                        if (userGridAttributes[index]) {
+                            cell.classList.add(`${userGridAttributes[index].toLowerCase()}-cell`);
+                        } else {
+                            // Remove all attribute classes if no attribute is selected
+                            cell.classList.remove('logic-cell', 'empathy-cell', 'intuition-cell');
+                        }
+                        
+                        cell.appendChild(attributeDropdown);
+                        grid.appendChild(cell);
+                    } else {
+                        // Card selection row (row 1)
+                        const cell = document.createElement('div');
+                        cell.className = 'attribute-planner-card-cell';
+                        
+                        // Find if there's a card assigned to this ID in the new grid
+                        const cardIndex = findCardIndexByID(index + 1);
+                        let card = null;
+                        if (cardIndex !== -1) {
+                            card = newGrid[cardIndex];
+                        }
+                        
+                        if (card) {
+                            // Apply attribute-based coloring to the card cell in planner
+                            if (card.attribute) {
+                                cell.classList.add(`${card.attribute.toLowerCase()}-cell`);
+                            } else {
+                                cell.classList.remove('logic-cell', 'empathy-cell', 'intuition-cell');
+                            }
+                            // Display the assigned card
+                            cell.innerHTML = `
+                                <button class="delete-card-btn" onclick="deleteCardFromAttributePlanner(${index})" title="Delete card">×</button>
+                                <div class="attribute-planner-card">
+                                    <div class="attribute-planner-card-image">
+                                        ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
+                                    </div>
+                                    <div class="attribute-planner-card-name">${card.name}</div>
+                                </div>
+                            `;
+                            cell.onclick = () => openCardModalForAttributePlanner(index);
+                        } else {
+                            // Remove any previous attribute classes when there's no card
+                            cell.classList.remove('logic-cell', 'empathy-cell', 'intuition-cell');
+                            // Show placeholder for card selection
+                            cell.innerHTML = `
+                                <div class="attribute-planner-card-placeholder">
+                                    <div class="placeholder-text">Click to select card</div>
+                                    <div class="placeholder-icon">+</div>
+                                </div>
+                            `;
+                            cell.onclick = () => openCardModalForAttributePlanner(index);
+                        }
+                        
+                        grid.appendChild(cell);
+                    }
                 }
-                
-                // Apply attribute-based coloring to the cell
-                if (userGridAttributes[i]) {
-                    cell.classList.add(`${userGridAttributes[i].toLowerCase()}-cell`);
-                } else {
-                    // Remove all attribute classes if no attribute is selected
-                    cell.classList.remove('logic-cell', 'empathy-cell', 'intuition-cell');
+            }
+        }
+
+        // Helper function to find card index by ID in the new grid
+        function findCardIndexByID(targetID) {
+            for (let i = 0; i < userGridNumbers.length; i++) {
+                if (userGridNumbers[i] === targetID) {
+                    return i;
                 }
-                
-                cell.appendChild(attributeDropdown);
-                grid.appendChild(cell);
+            }
+            return -1;
+        }
+
+        // Open card modal for attribute planner
+        function openCardModalForAttributePlanner(idIndex) {
+            // Find the grid position that has this ID
+            const gridPosition = findCardIndexByID(idIndex + 1);
+            if (gridPosition !== -1) {
+                // If there's already a card assigned to this ID, open modal for that position
+                openCardModal(gridPosition, 'newCardGrid');
+            } else {
+                // Find an empty position in the new grid
+                let emptyPosition = -1;
+                for (let i = 0; i < 15; i++) {
+                    if (!newGrid[i] && !userGridNumbers[i]) {
+                        emptyPosition = i;
+                        break;
+                    }
+                }
+                if (emptyPosition !== -1) {
+                    // Assign this ID to the empty position and open modal
+                    userGridNumbers[emptyPosition] = idIndex + 1;
+                    openCardModal(emptyPosition, 'newCardGrid');
+                } else {
+                    // No empty position available, show error or find a position to replace
+                    alert('No empty positions available in the New Card Grid. Please remove a card first.');
+                }
+            }
+        }
+
+        // Delete card from attribute planner (also removes it from new grid)
+        function deleteCardFromAttributePlanner(idIndex) {
+            const gridPosition = findCardIndexByID(idIndex + 1);
+            if (gridPosition !== -1) {
+                deleteCard(gridPosition, 'newCardGrid');
+                createAttributePlanner(); // Refresh the attribute planner
             }
         }
 
@@ -538,7 +643,7 @@
                         
                         // Get the attribute for this position to apply coloring
                         const cardId = userGridNumbers[index];
-                        const attribute = cardId && cardId >= 1 && cardId <= 15 ? userGridAttributes[cardId - 1] : null;
+                        const attribute = cardId !== undefined && cardId >= 1 && cardId <= 15 ? userGridAttributes[cardId - 1] : null;
                         
                         // Apply attribute-based coloring to the card cell
                         if (attribute) {
@@ -554,6 +659,7 @@
                             // Display the assigned card
                             const card = newGrid[index];
                             cardCell.innerHTML = `
+                                <button class="delete-card-btn" onclick="deleteCard(${index}, 'newCardGrid')" title="Delete card">×</button>
                                 <div class="grid-card">
                                     <div class="grid-card-image">
                                         ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
@@ -575,13 +681,13 @@
                         // Show the ID that was selected in initial grid
                         const idDisplay = document.createElement('div');
                         idDisplay.className = 'id-display';
-                        idDisplay.textContent = `ID: ${userGridNumbers[index] || 'N/A'}`;
+                        idDisplay.textContent = `ID: ${userGridNumbers[index] !== undefined ? userGridNumbers[index] : 'N/A'}`;
                         infoContainer.appendChild(idDisplay);
                         
                         // Show the attribute from attribute planner
                         const attributeDisplay = document.createElement('div');
                         attributeDisplay.className = 'attribute-display';
-                        const attribute = userGridNumbers[index] && userGridNumbers[index] >= 1 && userGridNumbers[index] <= 15 ? userGridAttributes[userGridNumbers[index] - 1] : null;
+                        const attribute = userGridNumbers[index] !== undefined && userGridNumbers[index] >= 1 && userGridNumbers[index] <= 15 ? userGridAttributes[userGridNumbers[index] - 1] : null;
                         attributeDisplay.textContent = `Attr: ${getAttributeDisplayName(attribute)}`;
                         attributeDisplay.style.color = '#28a745';
                         infoContainer.appendChild(attributeDisplay);
@@ -815,6 +921,7 @@
                     newGrid[currentGridCell] = card;
                     console.log('Updated newGrid:', newGrid);
                     createNewGrid();
+                    createAttributePlanner(); // Refresh attribute planner to show the new card
                 }
                 closeModal();
             }
@@ -825,8 +932,10 @@
             userGridNumbers[index] = parseInt(value);
             console.log(`Grid ${index} number updated to: ${value}`);
             console.log('Updated userGridNumbers:', userGridNumbers);
-            // Refresh the new grid to show updated ID and attribute info
+            // Refresh both grids to show updated ID and attribute info
+            createInitialGrid();
             createNewGrid();
+            createAttributePlanner(); // Refresh attribute planner to show updated card assignments
         }
 
         // Update attribute value for grid cell
@@ -837,6 +946,23 @@
             // Refresh both grids to show updated attribute info and coloring
             createAttributePlanner();
             createNewGrid();
+        }
+
+        // Delete card from grid cell
+        function deleteCard(index, gridType) {
+            if (gridType === 'initialCardGrid') {
+                initialGrid[index] = null;
+                console.log(`Deleted card from initialGrid at index ${index}`);
+                createInitialGrid();
+            } else if (gridType === 'newCardGrid') {
+                newGrid[index] = null;
+                console.log(`Deleted card from newGrid at index ${index}`);
+                createNewGrid();
+                createAttributePlanner(); // Refresh attribute planner to remove the card
+            } else if (gridType === 'userCardGrid') {
+                // Handle userCardGrid if needed
+                console.log(`Delete requested for userCardGrid at index ${index}`);
+            }
         }
 
         // Highlight the current grid being edited

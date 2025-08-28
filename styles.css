@@ -118,6 +118,7 @@ body {
 .attribute-planner {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: auto auto;
     gap: 10px;
     margin: 20px 0;
     padding: 20px;
@@ -131,12 +132,14 @@ body {
 @media (max-width: 1200px) {
     .attribute-planner {
         grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: auto auto;
     }
 }
 
 @media (max-width: 768px) {
     .attribute-planner {
         grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto auto;
     }
 }
 
@@ -150,6 +153,114 @@ body {
     border: 1px solid #dee2e6;
     min-height: 80px;
     justify-content: space-between;
+}
+
+.attribute-planner-card-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    min-height: 100px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.attribute-planner-card-cell:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Attribute planner card row coloring based on selected card attribute */
+.attribute-planner-card-cell.logic-cell {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border-color: #1976d2;
+}
+
+.attribute-planner-card-cell.empathy-cell {
+    background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+    border-color: #d32f2f;
+}
+
+.attribute-planner-card-cell.intuition-cell {
+    background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+    border-color: #388e3c;
+}
+
+.attribute-planner-card-cell.logic-cell:hover {
+    background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+    box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+}
+
+.attribute-planner-card-cell.empathy-cell:hover {
+    background: linear-gradient(135deg, #ffcdd2 0%, #ef9a9a 100%);
+    box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+}
+
+.attribute-planner-card-cell.intuition-cell:hover {
+    background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 100%);
+    box-shadow: 0 4px 15px rgba(56, 142, 60, 0.3);
+}
+
+.attribute-planner-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.attribute-planner-card-image {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.attribute-planner-card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+}
+
+.attribute-planner-card-name {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.attribute-planner-card-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #6c757d;
+    border: 2px dashed #dee2e6;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.placeholder-text {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.placeholder-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #adb5bd;
 }
 
 .id-label {
@@ -205,12 +316,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .grid-cell:hover {
     border-color: #667eea;
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
     transform: translateY(-2px);
+}
+
+/* Darken dropdown cells when the value is 0 */
+.dropdown-container[data-number="0"] {
+    background: #6c757d;
+    border-color: #495057;
+}
+
+.dropdown-container[data-number="0"] .grid-dropdown {
+    background: #495057;
+    color: white;
+    border-color: #343a40;
 }
 
 .empty-cell {
@@ -288,6 +412,36 @@ body {
     font-size: 1rem;
     color: #333;
     line-height: 1.2;
+}
+
+/* Delete button styling */
+.delete-card-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.delete-card-btn:hover {
+    background: #c82333;
+    transform: scale(1.1);
+}
+
+.delete-card-btn:active {
+    transform: scale(0.95);
 }
 
 .grid-card-attribute {
