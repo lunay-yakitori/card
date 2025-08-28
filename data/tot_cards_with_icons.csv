@@ -1,0 +1,414 @@
+Card name,Character,Rarity,Attribute,Icon URL,Local Icon Path
+Light of Life and Love,Luke Pearce,SSS icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Light_of_Life_and_Love%22_icon.png&width=108,data/icons/Luke_Pearce_Light_of_Life_and_Love.png
+Blossom Encounters,Luke Pearce,SSS icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Blossom_Encounters%22_icon.png&width=108,data/icons/Luke_Pearce_Blossom_Encounters.png
+Confluence of Romance,Artem Wing,SSS icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Confluence_of_Romance%22_icon.png&width=108,data/icons/Artem_Wing_Confluence_of_Romance.png
+Per Aspera Ad Astra,Artem Wing,SSS icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Per_Aspera_Ad_Astra%22_icon.png&width=108,data/icons/Artem_Wing_Per_Aspera_Ad_Astra.png
+Duet for the Ages,Vyn Richter,SSS icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Duet_for_the_Ages%22_icon.png&width=108,data/icons/Vyn_Richter_Duet_for_the_Ages.png
+Missing You,Vyn Richter,SSS icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Missing_You%22_icon.png&width=108,data/icons/Vyn_Richter_Missing_You.png
+Dreams in Synchronicity,Marius von Hagen,SSS icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Dreams_in_Synchronicity%22_icon.png&width=108,data/icons/Marius_von_Hagen_Dreams_in_Synchronicity.png
+Mutual Yearning,Marius von Hagen,SSS icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Mutual_Yearning%22_icon.png&width=108,data/icons/Marius_von_Hagen_Mutual_Yearning.png
+Alluring Gaze,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Alluring_Gaze%22_icon.png&width=108,data/icons/Luke_Pearce_Alluring_Gaze.png
+Perfect Partner,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Perfect_Partner%22_icon.png&width=108,data/icons/Luke_Pearce_Perfect_Partner.png
+Shape of You,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Shape_of_You%22_icon.png&width=108,data/icons/Luke_Pearce_Shape_of_You.png
+Iridescent Heartbeat,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Iridescent_Heartbeat%22_icon.png&width=108,data/icons/Luke_Pearce_Iridescent_Heartbeat.png
+Peaceful Place,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Peaceful_Place%22_icon.png&width=108,data/icons/Luke_Pearce_Peaceful_Place.png
+Warm Embrace,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Warm_Embrace%22_icon.png&width=108,data/icons/Luke_Pearce_Warm_Embrace.png
+Twinkling Eyes,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Twinkling_Eyes%22_icon.png&width=108,data/icons/Luke_Pearce_Twinkling_Eyes.png
+Through the Heavens,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Through_the_Heavens%22_icon.png&width=108,data/icons/Luke_Pearce_Through_the_Heavens.png
+Overflowing Thoughts,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Overflowing_Thoughts%22_icon.png&width=108,data/icons/Luke_Pearce_Overflowing_Thoughts.png
+Under the Milky Way,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Under_the_Milky_Way%22_icon.png&width=108,data/icons/Luke_Pearce_Under_the_Milky_Way.png
+Looming Nightmare,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Looming_Nightmare%22_icon.png&width=108,data/icons/Luke_Pearce_Looming_Nightmare.png
+Persistent Wishes,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Persistent_Wishes%22_icon.png&width=108,data/icons/Luke_Pearce_Persistent_Wishes.png
+Dark Swirl,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Dark_Swirl%22_icon.png&width=108,data/icons/Luke_Pearce_Dark_Swirl.png
+Lukewarm Fragrance,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Lukewarm_Fragrance%22_icon.png&width=108,data/icons/Luke_Pearce_Lukewarm_Fragrance.png
+Dreamlike Drama,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Dreamlike_Drama%22_icon.png&width=108,data/icons/Luke_Pearce_Dreamlike_Drama.png
+Prosperous Shade,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Prosperous_Shade%22_icon.png&width=108,data/icons/Luke_Pearce_Prosperous_Shade.png
+A Dream of Benji,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22A_Dream_of_Benji%22_icon.png&width=108,data/icons/Luke_Pearce_A_Dream_of_Benji.png
+Orange Scent,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Orange_Scent%22_icon.png&width=108,data/icons/Luke_Pearce_Orange_Scent.png
+Threads of Time,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Threads_of_Time%22_icon.png&width=108,data/icons/Luke_Pearce_Threads_of_Time.png
+Invincible for Love,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Invincible_for_Love%22_icon.png&width=108,data/icons/Luke_Pearce_Invincible_for_Love.png
+Love in Mist City,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Love_in_Mist_City%22_icon.png&width=108,data/icons/Luke_Pearce_Love_in_Mist_City.png
+Burning Reminiscence,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Burning_Reminiscence%22_icon.png&width=108,data/icons/Luke_Pearce_Burning_Reminiscence.png
+Sky Ashes,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Sky_Ashes%22_icon.png&width=108,data/icons/Luke_Pearce_Sky_Ashes.png
+Burning Heart,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Burning_Heart%22_icon.png&width=108,data/icons/Luke_Pearce_Burning_Heart.png
+Spice and Synergy,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Spice_and_Synergy%22_icon.png&width=108,data/icons/Luke_Pearce_Spice_and_Synergy.png
+Concealed in the Clamor,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Concealed_in_the_Clamor%22_icon.png&width=108,data/icons/Luke_Pearce_Concealed_in_the_Clamor.png
+Ripples of Summer,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Ripples_of_Summer%22_icon.png&width=108,data/icons/Luke_Pearce_Ripples_of_Summer.png
+Falling Dreams,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Falling_Dreams%22_icon.png&width=108,data/icons/Luke_Pearce_Falling_Dreams.png
+Journey Beyond,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Journey_Beyond%22_icon.png&width=108,data/icons/Luke_Pearce_Journey_Beyond.png
+The Hunt,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22The_Hunt%22_icon.png&width=108,data/icons/Luke_Pearce_The_Hunt.png
+Love Across Realms,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Love_Across_Realms%22_icon.png&width=108,data/icons/Luke_Pearce_Love_Across_Realms.png
+Heart Flutters For You,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Heart_Flutters_For_You%22_icon.png&width=108,data/icons/Luke_Pearce_Heart_Flutters_For_You.png
+Melody of Tonight,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Melody_of_Tonight%22_icon.png&width=108,data/icons/Luke_Pearce_Melody_of_Tonight.png
+Youth and Mystery,Luke Pearce,SSR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Youth_and_Mystery%22_icon.png&width=108,data/icons/Luke_Pearce_Youth_and_Mystery.png
+The Answered Heart,Luke Pearce,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22The_Answered_Heart%22_icon.png&width=108,data/icons/Luke_Pearce_The_Answered_Heart.png
+Feast for the Senses,Luke Pearce,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Feast_for_the_Senses%22_icon.png&width=108,data/icons/Luke_Pearce_Feast_for_the_Senses.png
+Loving Memories,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Loving_Memories%22_icon.png&width=108,data/icons/Artem_Wing_Loving_Memories.png
+Atmospherics,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Atmospherics%22_icon.png&width=108,data/icons/Artem_Wing_Atmospherics.png
+Entwined Fate,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Entwined_Fate%22_icon.png&width=108,data/icons/Artem_Wing_Entwined_Fate.png
+Dreamful Melodies,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Dreamful_Melodies%22_icon.png&width=108,data/icons/Artem_Wing_Dreamful_Melodies.png
+Por Una Cabeza,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Por_Una_Cabeza%22_icon.png&width=108,data/icons/Artem_Wing_Por_Una_Cabeza.png
+Wandering Heart,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Wandering_Heart%22_icon.png&width=108,data/icons/Artem_Wing_Wandering_Heart.png
+Sunshine After the Rain,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Sunshine_After_the_Rain%22_icon.png&width=108,data/icons/Artem_Wing_Sunshine_After_the_Rain.png
+Two Hearts as One,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Two_Hearts_as_One%22_icon.png&width=108,data/icons/Artem_Wing_Two_Hearts_as_One.png
+Unusual Love,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Unusual_Love%22_icon.png&width=108,data/icons/Artem_Wing_Unusual_Love.png
+Echoes Ablaze,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Echoes_Ablaze%22_icon.png&width=108,data/icons/Artem_Wing_Echoes_Ablaze.png
+Eternal Yearning,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Eternal_Yearning%22_icon.png&width=108,data/icons/Artem_Wing_Eternal_Yearning.png
+New Skies,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22New_Skies%22_icon.png&width=108,data/icons/Artem_Wing_New_Skies.png
+Paired Blessings,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Paired_Blessings%22_icon.png&width=108,data/icons/Artem_Wing_Paired_Blessings.png
+The Weeds,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22The_Weeds%22_icon.png&width=108,data/icons/Artem_Wing_The_Weeds.png
+Hook of Love,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Hook_of_Love%22_icon.png&width=108,data/icons/Artem_Wing_Hook_of_Love.png
+Day and Night,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Day_and_Night%22_icon.png&width=108,data/icons/Artem_Wing_Day_and_Night.png
+Lavish Invitation,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Lavish_Invitation%22_icon.png&width=108,data/icons/Artem_Wing_Lavish_Invitation.png
+Cutie Ollie,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Cutie_Ollie%22_icon.png&width=108,data/icons/Artem_Wing_Cutie_Ollie.png
+Belle Nuit d'Amour,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Belle_Nuit_d%27Amour%22_icon.png&width=108,data/icons/Artem_Wing_Belle_Nuit_d_Amour.png
+Stormy Enigma,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Stormy_Enigma%22_icon.png&width=108,data/icons/Artem_Wing_Stormy_Enigma.png
+Voice of Comfort,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Voice_of_Comfort%22_icon.png&width=108,data/icons/Artem_Wing_Voice_of_Comfort.png
+Enshrouded Sunglow,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Enshrouded_Sunglow%22_icon.png&width=108,data/icons/Artem_Wing_Enshrouded_Sunglow.png
+Calm as the Night,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Calm_as_the_Night%22_icon.png&width=108,data/icons/Artem_Wing_Calm_as_the_Night.png
+Velocity of Desire,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Velocity_of_Desire%22_icon.png&width=108,data/icons/Artem_Wing_Velocity_of_Desire.png
+Love for the Ages,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Love_for_the_Ages%22_icon.png&width=108,data/icons/Artem_Wing_Love_for_the_Ages.png
+Ocean's Enchantment,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Ocean%27s_Enchantment%22_icon.png&width=108,data/icons/Artem_Wing_Ocean_s_Enchantment.png
+Resonant Heartstrings,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Resonant_Heartstrings%22_icon.png&width=108,data/icons/Artem_Wing_Resonant_Heartstrings.png
+Cozy Contentment,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Cozy_Contentment%22_icon.png&width=108,data/icons/Artem_Wing_Cozy_Contentment.png
+Crucible of Rebirth,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Crucible_of_Rebirth%22_icon.png&width=108,data/icons/Artem_Wing_Crucible_of_Rebirth.png
+Immersed in Intimacy,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Immersed_in_Intimacy%22_icon.png&width=108,data/icons/Artem_Wing_Immersed_in_Intimacy.png
+A Timeless Dream,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22A_Timeless_Dream%22_icon.png&width=108,data/icons/Artem_Wing_A_Timeless_Dream.png
+Golden Romance,Artem Wing,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Golden_Romance%22_icon.png&width=108,data/icons/Artem_Wing_Golden_Romance.png
+A Thousand Mountains,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22A_Thousand_Mountains%22_icon.png&width=108,data/icons/Artem_Wing_A_Thousand_Mountains.png
+Starshower of Our Youth,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Starshower_of_Our_Youth%22_icon.png&width=108,data/icons/Artem_Wing_Starshower_of_Our_Youth.png
+Eventide Whispers,Artem Wing,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Eventide_Whispers%22_icon.png&width=108,data/icons/Artem_Wing_Eventide_Whispers.png
+The Timely Rain,Artem Wing,SSR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22The_Timely_Rain%22_icon.png&width=108,data/icons/Artem_Wing_The_Timely_Rain.png
+Near and Far,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Near_and_Far%22_icon.png&width=108,data/icons/Vyn_Richter_Near_and_Far.png
+Medieval Suspense,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Medieval_Suspense%22_icon.png&width=108,data/icons/Vyn_Richter_Medieval_Suspense.png
+Heartfelt Suspense,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Heartfelt_Suspense%22_icon.png&width=108,data/icons/Vyn_Richter_Heartfelt_Suspense.png
+A Star in the Night,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22A_Star_in_the_Night%22_icon.png&width=108,data/icons/Vyn_Richter_A_Star_in_the_Night.png
+Between Good and Evil,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Between_Good_and_Evil%22_icon.png&width=108,data/icons/Vyn_Richter_Between_Good_and_Evil.png
+Blazing Colors,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Blazing_Colors%22_icon.png&width=108,data/icons/Vyn_Richter_Blazing_Colors.png
+Food for Thought,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Food_for_Thought%22_icon.png&width=108,data/icons/Vyn_Richter_Food_for_Thought.png
+Neon Melody,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Neon_Melody%22_icon.png&width=108,data/icons/Vyn_Richter_Neon_Melody.png
+Flickering Moonlight,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Flickering_Moonlight%22_icon.png&width=108,data/icons/Vyn_Richter_Flickering_Moonlight.png
+Committed,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Committed%22_icon.png&width=108,data/icons/Vyn_Richter_Committed.png
+Fetters of the Past,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Fetters_of_the_Past%22_icon.png&width=108,data/icons/Vyn_Richter_Fetters_of_the_Past.png
+Aimed At Your Heart,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Aimed_At_Your_Heart%22_icon.png&width=108,data/icons/Vyn_Richter_Aimed_At_Your_Heart.png
+Burning Embrace,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Burning_Embrace%22_icon.png&width=108,data/icons/Vyn_Richter_Burning_Embrace.png
+Sunset-Dyed Sand,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Sunset-Dyed_Sand%22_icon.png&width=108,data/icons/Vyn_Richter_Sunset-Dyed_Sand.png
+Hungering Desire,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Hungering_Desire%22_icon.png&width=108,data/icons/Vyn_Richter_Hungering_Desire.png
+Gilded Gloaming,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Gilded_Gloaming%22_icon.png&width=108,data/icons/Vyn_Richter_Gilded_Gloaming.png
+Trace of Puff,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Trace_of_Puff%22_icon.png&width=108,data/icons/Vyn_Richter_Trace_of_Puff.png
+Under the Tea Tree,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Under_the_Tea_Tree%22_icon.png&width=108,data/icons/Vyn_Richter_Under_the_Tea_Tree.png
+Drowning in the Ashes,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Drowning_in_the_Ashes%22_icon.png&width=108,data/icons/Vyn_Richter_Drowning_in_the_Ashes.png
+Dreams of Light,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Dreams_of_Light%22_icon.png&width=108,data/icons/Vyn_Richter_Dreams_of_Light.png
+Fluttering Wings,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Fluttering_Wings%22_icon.png&width=108,data/icons/Vyn_Richter_Fluttering_Wings.png
+Blooming Fragrance,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Blooming_Fragrance%22_icon.png&width=108,data/icons/Vyn_Richter_Blooming_Fragrance.png
+Depth of Desire,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Depth_of_Desire%22_icon.png&width=108,data/icons/Vyn_Richter_Depth_of_Desire.png
+Imprints in Oblivion,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Imprints_in_Oblivion%22_icon.png&width=108,data/icons/Vyn_Richter_Imprints_in_Oblivion.png
+Musings in the Rain,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Musings_in_the_Rain%22_icon.png&width=108,data/icons/Vyn_Richter_Musings_in_the_Rain.png
+Sunkissed Vacation,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Sunkissed_Vacation%22_icon.png&width=108,data/icons/Vyn_Richter_Sunkissed_Vacation.png
+Words From the Heart,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Words_From_the_Heart%22_icon.png&width=108,data/icons/Vyn_Richter_Words_From_the_Heart.png
+Journey Forth With You,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Journey_Forth_With_You%22_icon.png&width=108,data/icons/Vyn_Richter_Journey_Forth_With_You.png
+Silent Desolation,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Silent_Desolation%22_icon.png&width=108,data/icons/Vyn_Richter_Silent_Desolation.png
+Trial by Love,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Trial_by_Love%22_icon.png&width=108,data/icons/Vyn_Richter_Trial_by_Love.png
+Secret Whispers,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Secret_Whispers%22_icon.png&width=108,data/icons/Vyn_Richter_Secret_Whispers.png
+Looking For,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Looking_For%22_icon.png&width=108,data/icons/Vyn_Richter_Looking_For.png
+Awaiting Our Future,Vyn Richter,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Awaiting_Our_Future%22_icon.png&width=108,data/icons/Vyn_Richter_Awaiting_Our_Future.png
+Soothing the Heart,Vyn Richter,SSR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Soothing_the_Heart%22_icon.png&width=108,data/icons/Vyn_Richter_Soothing_the_Heart.png
+Wheatfield Whispers,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Wheatfield_Whispers%22_icon.png&width=108,data/icons/Vyn_Richter_Wheatfield_Whispers.png
+Garden of Affection,Vyn Richter,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Garden_of_Affection%22_icon.png&width=108,data/icons/Vyn_Richter_Garden_of_Affection.png
+Matching Tattoos,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Matching_Tattoos%22_icon.png&width=108,data/icons/Marius_von_Hagen_Matching_Tattoos.png
+Eye of the Beholder,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Eye_of_the_Beholder%22_icon.png&width=108,data/icons/Marius_von_Hagen_Eye_of_the_Beholder.png
+Narrow Road,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Narrow_Road%22_icon.png&width=108,data/icons/Marius_von_Hagen_Narrow_Road.png
+In the Darkness,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22In_the_Darkness%22_icon.png&width=108,data/icons/Marius_von_Hagen_In_the_Darkness.png
+Fabulous Feast,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Fabulous_Feast%22_icon.png&width=108,data/icons/Marius_von_Hagen_Fabulous_Feast.png
+Will of the Trees,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Will_of_the_Trees%22_icon.png&width=108,data/icons/Marius_von_Hagen_Will_of_the_Trees.png
+All Through the Night,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22All_Through_the_Night%22_icon.png&width=108,data/icons/Marius_von_Hagen_All_Through_the_Night.png
+Daytime Aurora,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Daytime_Aurora%22_icon.png&width=108,data/icons/Marius_von_Hagen_Daytime_Aurora.png
+Dimly Lit,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Dimly_Lit%22_icon.png&width=108,data/icons/Marius_von_Hagen_Dimly_Lit.png
+Crown of Glory,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Crown_of_Glory%22_icon.png&width=108,data/icons/Marius_von_Hagen_Crown_of_Glory.png
+Expression Through Art,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Expression_Through_Art%22_icon.png&width=108,data/icons/Marius_von_Hagen_Expression_Through_Art.png
+Precious Mornings,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Precious_Mornings%22_icon.png&width=108,data/icons/Marius_von_Hagen_Precious_Mornings.png
+Sweet Wonders,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Sweet_Wonders%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sweet_Wonders.png
+Tideborne Romance,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Tideborne_Romance%22_icon.png&width=108,data/icons/Marius_von_Hagen_Tideborne_Romance.png
+Engravings,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Engravings%22_icon.png&width=108,data/icons/Marius_von_Hagen_Engravings.png
+Mirage of You,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Mirage_of_You%22_icon.png&width=108,data/icons/Marius_von_Hagen_Mirage_of_You.png
+Wishing Star,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Wishing_Star%22_icon.png&width=108,data/icons/Marius_von_Hagen_Wishing_Star.png
+Unconcealable,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Unconcealable%22_icon.png&width=108,data/icons/Marius_von_Hagen_Unconcealable.png
+Eternal Flame,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Eternal_Flame%22_icon.png&width=108,data/icons/Marius_von_Hagen_Eternal_Flame.png
+World of Glitz,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22World_of_Glitz%22_icon.png&width=108,data/icons/Marius_von_Hagen_World_of_Glitz.png
+Sweet Berry,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Sweet_Berry%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sweet_Berry.png
+Laments at Sea,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Laments_at_Sea%22_icon.png&width=108,data/icons/Marius_von_Hagen_Laments_at_Sea.png
+A Bespoke Romance,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22A_Bespoke_Romance%22_icon.png&width=108,data/icons/Marius_von_Hagen_A_Bespoke_Romance.png
+Unchanged by Time,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Unchanged_by_Time%22_icon.png&width=108,data/icons/Marius_von_Hagen_Unchanged_by_Time.png
+Path of Thorns,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Path_of_Thorns%22_icon.png&width=108,data/icons/Marius_von_Hagen_Path_of_Thorns.png
+Wherever We May Go,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Wherever_We_May_Go%22_icon.png&width=108,data/icons/Marius_von_Hagen_Wherever_We_May_Go.png
+From Shadow Into Light,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22From_Shadow_Into_Light%22_icon.png&width=108,data/icons/Marius_von_Hagen_From_Shadow_Into_Light.png
+Incognito Veritas,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Incognito_Veritas%22_icon.png&width=108,data/icons/Marius_von_Hagen_Incognito_Veritas.png
+Vow of Embers,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Vow_of_Embers%22_icon.png&width=108,data/icons/Marius_von_Hagen_Vow_of_Embers.png
+Wishes Across Time,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Wishes_Across_Time%22_icon.png&width=108,data/icons/Marius_von_Hagen_Wishes_Across_Time.png
+Beacon in the Night,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Beacon_in_the_Night%22_icon.png&width=108,data/icons/Marius_von_Hagen_Beacon_in_the_Night.png
+Captivating Hearts,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Captivating_Hearts%22_icon.png&width=108,data/icons/Marius_von_Hagen_Captivating_Hearts.png
+Gazing Back,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Gazing_Back%22_icon.png&width=108,data/icons/Marius_von_Hagen_Gazing_Back.png
+Let Dreams Take Flight,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Let_Dreams_Take_Flight%22_icon.png&width=108,data/icons/Marius_von_Hagen_Let_Dreams_Take_Flight.png
+Purity of Self,Marius von Hagen,SSR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Purity_of_Self%22_icon.png&width=108,data/icons/Marius_von_Hagen_Purity_of_Self.png
+Unheard Confession,Marius von Hagen,SSR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Unheard_Confession%22_icon.png&width=108,data/icons/Marius_von_Hagen_Unheard_Confession.png
+Unseen Starlight,Marius von Hagen,SSR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Unseen_Starlight%22_icon.png&width=108,data/icons/Marius_von_Hagen_Unseen_Starlight.png
+Radiant Sunlight,Luke Pearce,SR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Radiant_Sunlight%22_icon.png&width=108,data/icons/Luke_Pearce_Radiant_Sunlight.png
+Among the Great Blue,Luke Pearce,SR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Among_the_Great_Blue%22_icon.png&width=108,data/icons/Luke_Pearce_Among_the_Great_Blue.png
+Once Upon a Time,Luke Pearce,SR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Once_Upon_a_Time%22_icon.png&width=108,data/icons/Luke_Pearce_Once_Upon_a_Time.png
+Inner Sanctum,Luke Pearce,SR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Inner_Sanctum%22_icon.png&width=108,data/icons/Luke_Pearce_Inner_Sanctum.png
+Moment of Danger,Luke Pearce,SR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Moment_of_Danger%22_icon.png&width=108,data/icons/Luke_Pearce_Moment_of_Danger.png
+Together With You,Luke Pearce,SR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Together_with_You%22_icon.png&width=108,data/icons/Luke_Pearce_Together_With_You.png
+Timely Rescue,Luke Pearce,SR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Timely_Rescue%22_icon.png&width=108,data/icons/Luke_Pearce_Timely_Rescue.png
+How I Remember You,Luke Pearce,SR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22How_I_Remember_You%22_icon.png&width=108,data/icons/Luke_Pearce_How_I_Remember_You.png
+A Star in the Palm,Luke Pearce,SR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22A_Star_in_the_Palm%22_icon.png&width=108,data/icons/Luke_Pearce_A_Star_in_the_Palm.png
+Love Between Pages,Luke Pearce,SR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Love_between_Pages%22_icon.png&width=108,data/icons/Luke_Pearce_Love_Between_Pages.png
+Notches on the Heart,Luke Pearce,SR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Notches_on_the_Heart%22_icon.png&width=108,data/icons/Luke_Pearce_Notches_on_the_Heart.png
+Honeyed Secret,Luke Pearce,SR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Honeyed_Secret%22_icon.png&width=108,data/icons/Luke_Pearce_Honeyed_Secret.png
+Summer Starlight,Luke Pearce,SR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Summer_Starlight%22_icon.png&width=108,data/icons/Luke_Pearce_Summer_Starlight.png
+Scorching Light,Luke Pearce,SR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Scorching_Light%22_icon.png&width=108,data/icons/Luke_Pearce_Scorching_Light.png
+Sparkling Sunshower,Luke Pearce,SR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Sparkling_Sunshower%22_icon.png&width=108,data/icons/Luke_Pearce_Sparkling_Sunshower.png
+Sparks,Artem Wing,SR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Sparks%22_icon.png&width=108,data/icons/Artem_Wing_Sparks.png
+Thin Veil,Artem Wing,SR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Thin_Veil%22_icon.png&width=108,data/icons/Artem_Wing_Thin_Veil.png
+Staying Humble,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Staying_Humble%22_icon.png&width=108,data/icons/Artem_Wing_Staying_Humble.png
+In Sickness or in Health,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22In_Sickness_or_in_Health%22_icon.png&width=108,data/icons/Artem_Wing_In_Sickness_or_in_Health.png
+Focus Fire,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Focus_Fire%22_icon.png&width=108,data/icons/Artem_Wing_Focus_Fire.png
+Autumn Dreams,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Autumn_Dreams%22_icon.png&width=108,data/icons/Artem_Wing_Autumn_Dreams.png
+Darkest Before Dawn,Artem Wing,SR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Darkest_before_Dawn%22_icon.png&width=108,data/icons/Artem_Wing_Darkest_Before_Dawn.png
+Fixated on You,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Fixated_on_You%22_icon.png&width=108,data/icons/Artem_Wing_Fixated_on_You.png
+Choice,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Choice%22_icon.png&width=108,data/icons/Artem_Wing_Choice.png
+Choice,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Choice%22_icon.png&width=108,data/icons/Artem_Wing_Choice.png
+Winning Ball,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Winning_Ball%22_icon.png&width=108,data/icons/Artem_Wing_Winning_Ball.png
+Heart Listener,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Heart_Listener%22_icon.png&width=108,data/icons/Artem_Wing_Heart_Listener.png
+Masquerade Passion,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Masquerade_Passion%22_icon.png&width=108,data/icons/Artem_Wing_Masquerade_Passion.png
+Here and Now,Artem Wing,SR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Here_and_Now%22_icon.png&width=108,data/icons/Artem_Wing_Here_and_Now.png
+Unforgotten,Artem Wing,SR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Unforgotten%22_icon.png&width=108,data/icons/Artem_Wing_Unforgotten.png
+Sweet Woven Memories,Artem Wing,SR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Sweet_Woven_Memories%22_icon.png&width=108,data/icons/Artem_Wing_Sweet_Woven_Memories.png
+False Tears,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22False_Tears%22_icon.png&width=108,data/icons/Vyn_Richter_False_Tears.png
+Gentleman's Game,Vyn Richter,SR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Gentleman%27s_Game%22_icon.png&width=108,data/icons/Vyn_Richter_Gentleman_s_Game.png
+Lingering Warmth,Vyn Richter,SR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Lingering_Warmth%22_icon.png&width=108,data/icons/Vyn_Richter_Lingering_Warmth.png
+Mended Heart,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Mended_Heart%22_icon.png&width=108,data/icons/Vyn_Richter_Mended_Heart.png
+Spilling Light,Vyn Richter,SR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Spilling_Light%22_icon.png&width=108,data/icons/Vyn_Richter_Spilling_Light.png
+Mercury in Retrograde,Vyn Richter,SR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Mercury_in_Retrograde%22_icon.png&width=108,data/icons/Vyn_Richter_Mercury_in_Retrograde.png
+Cool Summer,Vyn Richter,SR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Cool_Summer%22_icon.png&width=108,data/icons/Vyn_Richter_Cool_Summer.png
+Entrapped,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Entrapped%22_icon.png&width=108,data/icons/Vyn_Richter_Entrapped.png
+Snowy Fairy Tale,Vyn Richter,SR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Snowy_Fairy_Tale%22_icon.png&width=108,data/icons/Vyn_Richter_Snowy_Fairy_Tale.png
+Eternal Whispers,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Eternal_Whispers%22_icon.png&width=108,data/icons/Vyn_Richter_Eternal_Whispers.png
+Entangled in Love,Vyn Richter,SR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Entangled_in_Love%22_icon.png&width=108,data/icons/Vyn_Richter_Entangled_in_Love.png
+Bustling Dream,Vyn Richter,SR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Bustling_Dream%22_icon.png&width=108,data/icons/Vyn_Richter_Bustling_Dream.png
+Timeless Wishes,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Timeless_Wishes%22_icon.png&width=108,data/icons/Vyn_Richter_Timeless_Wishes.png
+Thoughts and Desires,Vyn Richter,SR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Thoughts_and_Desires%22_icon.png&width=108,data/icons/Vyn_Richter_Thoughts_and_Desires.png
+Charming Foliage,Vyn Richter,SR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Charming_Foliage%22_icon.png&width=108,data/icons/Vyn_Richter_Charming_Foliage.png
+Dream of Thebes,Marius von Hagen,SR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Dream_of_Thebes%22_icon.png&width=108,data/icons/Marius_von_Hagen_Dream_of_Thebes.png
+Falling into You,Marius von Hagen,SR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Falling_into_You%22_icon.png&width=108,data/icons/Marius_von_Hagen_Falling_into_You.png
+Child at Heart,Marius von Hagen,SR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Child_at_Heart%22_icon.png&width=108,data/icons/Marius_von_Hagen_Child_at_Heart.png
+Butterflies,Marius von Hagen,SR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Butterflies%22_icon.png&width=108,data/icons/Marius_von_Hagen_Butterflies.png
+Overtone,Marius von Hagen,SR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Overtone%22_icon.png&width=108,data/icons/Marius_von_Hagen_Overtone.png
+Falling into You,Marius von Hagen,SR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Falling_into_You%22_icon.png&width=108,data/icons/Marius_von_Hagen_Falling_into_You.png
+A Dance on the Clouds,Marius von Hagen,SR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22A_Dance_on_the_Clouds%22_icon.png&width=108,data/icons/Marius_von_Hagen_A_Dance_on_the_Clouds.png
+Twilight Beauty,Marius von Hagen,SR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Twilight_Beauty%22_icon.png&width=108,data/icons/Marius_von_Hagen_Twilight_Beauty.png
+Vibrant Graffiti,Marius von Hagen,SR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Vibrant_Graffiti%22_icon.png&width=108,data/icons/Marius_von_Hagen_Vibrant_Graffiti.png
+Under the Silence,Marius von Hagen,SR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Under_the_Silence%22_icon.png&width=108,data/icons/Marius_von_Hagen_Under_the_Silence.png
+Love Berries,Marius von Hagen,SR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Love_Berries%22_icon.png&width=108,data/icons/Marius_von_Hagen_Love_Berries.png
+Seaside Sweetness,Marius von Hagen,SR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Seaside_Sweetness%22_icon.png&width=108,data/icons/Marius_von_Hagen_Seaside_Sweetness.png
+Dyed in Your Colors,Marius von Hagen,SR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Dyed_in_Your_Colors%22_icon.png&width=108,data/icons/Marius_von_Hagen_Dyed_in_Your_Colors.png
+Innocent Fun,Marius von Hagen,SR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Innocent_Fun%22_icon.png&width=108,data/icons/Marius_von_Hagen_Innocent_Fun.png
+Companionship,Luke Pearce,MR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Companionship%22_icon.png&width=108,data/icons/Luke_Pearce_Companionship.png
+Shining Warmth,Luke Pearce,MR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Shining_Warmth%22_icon.png&width=108,data/icons/Luke_Pearce_Shining_Warmth.png
+Entrusted Feelings,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Entrusted_Feelings%22_icon.png&width=108,data/icons/Luke_Pearce_Entrusted_Feelings.png
+Moonlit Prisoner,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Moonlit_Prisoner%22_icon.png&width=108,data/icons/Luke_Pearce_Moonlit_Prisoner.png
+Passionate,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Passionate%22_icon.png&width=108,data/icons/Luke_Pearce_Passionate.png
+Clear Day,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Clear_Day%22_icon.png&width=108,data/icons/Luke_Pearce_Clear_Day.png
+Attunement of Guqin,Luke Pearce,MR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Attunement_of_Guqin%22_icon.png&width=108,data/icons/Luke_Pearce_Attunement_of_Guqin.png
+Alluring Illusion,Luke Pearce,MR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Alluring_Illusion%22_icon.png&width=108,data/icons/Luke_Pearce_Alluring_Illusion.png
+Mouth-Watering,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Mouth-Watering%22_icon.png&width=108,data/icons/Luke_Pearce_Mouth-Watering.png
+Entanglement,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Entanglement%22_icon.png&width=108,data/icons/Luke_Pearce_Entanglement.png
+Indulgence,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Indulgence%22_icon.png&width=108,data/icons/Luke_Pearce_Indulgence.png
+In Your Arms,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22In_Your_Arms%22_icon.png&width=108,data/icons/Luke_Pearce_In_Your_Arms.png
+Leaping,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Leaping%22_icon.png&width=108,data/icons/Luke_Pearce_Leaping.png
+Triumphant Return,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Triumphant_Return%22_icon.png&width=108,data/icons/Luke_Pearce_Triumphant_Return.png
+All In,Luke Pearce,MR icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22All_In%22_icon.png&width=108,data/icons/Luke_Pearce_All_In.png
+Into Warmth,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Into_Warmth%22_icon.png&width=108,data/icons/Luke_Pearce_Into_Warmth.png
+In the Footsteps of Silk,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22In_the_Footsteps_of_Silk%22_icon.png&width=108,data/icons/Luke_Pearce_In_the_Footsteps_of_Silk.png
+Affectionate Touch,Luke Pearce,MR icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Affectionate_Touch%22_icon.png&width=108,data/icons/Luke_Pearce_Affectionate_Touch.png
+A Haunting Awakening,Luke Pearce,MR icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22A_Haunting_Awakening%22_icon.png&width=108,data/icons/Luke_Pearce_A_Haunting_Awakening.png
+Stretching,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Stretching%22_icon.png&width=108,data/icons/Artem_Wing_Stretching.png
+Intentions,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Intentions%22_icon.png&width=108,data/icons/Artem_Wing_Intentions.png
+Unwilling to Part,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Unwilling_to_Part%22_icon.png&width=108,data/icons/Artem_Wing_Unwilling_to_Part.png
+Imitation,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Imitation%22_icon.png&width=108,data/icons/Artem_Wing_Imitation.png
+Longing,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Longing%22_icon.png&width=108,data/icons/Artem_Wing_Longing.png
+Ready to Go,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Ready_to_Go%22_icon.png&width=108,data/icons/Artem_Wing_Ready_to_Go.png
+Bright Moonlight,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Bright_Moonlight%22_icon.png&width=108,data/icons/Artem_Wing_Bright_Moonlight.png
+Composition of Ink,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Composition_of_Ink%22_icon.png&width=108,data/icons/Artem_Wing_Composition_of_Ink.png
+Traces of the Deerman,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Traces_of_the_Deerman%22_icon.png&width=108,data/icons/Artem_Wing_Traces_of_the_Deerman.png
+Smooth as Pearls,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Smooth_as_Pearls%22_icon.png&width=108,data/icons/Artem_Wing_Smooth_as_Pearls.png
+Endearment,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Endearment%22_icon.png&width=108,data/icons/Artem_Wing_Endearment.png
+Gentle Murmurs,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Gentle_Murmurs%22_icon.png&width=108,data/icons/Artem_Wing_Gentle_Murmurs.png
+Sworn Oath,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Sworn_Oath%22_icon.png&width=108,data/icons/Artem_Wing_Sworn_Oath.png
+Certain Victory,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Certain_Victory%22_icon.png&width=108,data/icons/Artem_Wing_Certain_Victory.png
+Gentle Night,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Gentle_Night%22_icon.png&width=108,data/icons/Artem_Wing_Gentle_Night.png
+Striking,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Striking%22_icon.png&width=108,data/icons/Artem_Wing_Striking.png
+Serenade of the Soul,Artem Wing,MR icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Serenade_of_the_Soul%22_icon.png&width=108,data/icons/Artem_Wing_Serenade_of_the_Soul.png
+Intoxicating Fragrance,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Intoxicating_Fragrance%22_icon.png&width=108,data/icons/Artem_Wing_Intoxicating_Fragrance.png
+Breezing Through,Artem Wing,MR icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Breezing_Through%22_icon.png&width=108,data/icons/Artem_Wing_Breezing_Through.png
+Treading on Fear,Artem Wing,MR icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Treading_on_Fear%22_icon.png&width=108,data/icons/Artem_Wing_Treading_on_Fear.png
+Morning Glory,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Morning_Glory%22_icon.png&width=108,data/icons/Vyn_Richter_Morning_Glory.png
+Promise,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Promise%22_icon.png&width=108,data/icons/Vyn_Richter_Promise.png
+Focused Gaze,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Focused_Gaze%22_icon.png&width=108,data/icons/Vyn_Richter_Focused_Gaze.png
+Return to Night,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Return_to_Night%22_icon.png&width=108,data/icons/Vyn_Richter_Return_to_Night.png
+Unforgettable,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Unforgettable%22_icon.png&width=108,data/icons/Vyn_Richter_Unforgettable.png
+Sweet Dream,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Sweet_Dream%22_icon.png&width=108,data/icons/Vyn_Richter_Sweet_Dream.png
+Buckle Down,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Buckle_Down%22_icon.png&width=108,data/icons/Vyn_Richter_Buckle_Down.png
+Fragrancy of Incense,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Fragrancy_of_Incense%22_icon.png&width=108,data/icons/Vyn_Richter_Fragrancy_of_Incense.png
+Lure of the Merman,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Lure_of_the_Merman%22_icon.png&width=108,data/icons/Vyn_Richter_Lure_of_the_Merman.png
+Delectable,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Delectable%22_icon.png&width=108,data/icons/Vyn_Richter_Delectable.png
+Closeness,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Closeness%22_icon.png&width=108,data/icons/Vyn_Richter_Closeness.png
+Always Together,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Always_Together%22_icon.png&width=108,data/icons/Vyn_Richter_Always_Together.png
+In the Wind,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22In_the_Wind%22_icon.png&width=108,data/icons/Vyn_Richter_In_the_Wind.png
+Strategic Mind,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Strategic_Mind%22_icon.png&width=108,data/icons/Vyn_Richter_Strategic_Mind.png
+Skating,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Skating%22_icon.png&width=108,data/icons/Vyn_Richter_Skating.png
+Love's Offering,Vyn Richter,MR icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Love%27s_Offering%22_icon.png&width=108,data/icons/Vyn_Richter_Love_s_Offering.png
+Reverberation Through Time,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Reverberation_Through_Time%22_icon.png&width=108,data/icons/Vyn_Richter_Reverberation_Through_Time.png
+Honeyed Kiss,Vyn Richter,MR icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Honeyed_Kiss%22_icon.png&width=108,data/icons/Vyn_Richter_Honeyed_Kiss.png
+Vigil,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Vigil%22_icon.png&width=108,data/icons/Vyn_Richter_Vigil.png
+The Phantom Rail,Vyn Richter,MR icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22The_Phantom_Rail%22_icon.png&width=108,data/icons/Vyn_Richter_The_Phantom_Rail.png
+Keepsake,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Keepsake%22_icon.png&width=108,data/icons/Marius_von_Hagen_Keepsake.png
+Palpitations,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Palpitations%22_icon.png&width=108,data/icons/Marius_von_Hagen_Palpitations.png
+Sinful Lust,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Sinful_Lust%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sinful_Lust.png
+First Glimpse,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22First_Glimpse%22_icon.png&width=108,data/icons/Marius_von_Hagen_First_Glimpse.png
+Sincerity,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Sincerity%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sincerity.png
+Wander About,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Wander_About%22_icon.png&width=108,data/icons/Marius_von_Hagen_Wander_About.png
+Heart Ring,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Heart_Ring%22_icon.png&width=108,data/icons/Marius_von_Hagen_Heart_Ring.png
+Immersion of Tea,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Immersion_of_Tea%22_icon.png&width=108,data/icons/Marius_von_Hagen_Immersion_of_Tea.png
+Dream a Dream,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Dream_a_Dream%22_icon.png&width=108,data/icons/Marius_von_Hagen_Dream_a_Dream.png
+Seeking Sweetness,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Seeking_Sweetness%22_icon.png&width=108,data/icons/Marius_von_Hagen_Seeking_Sweetness.png
+Linger,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Linger%22_icon.png&width=108,data/icons/Marius_von_Hagen_Linger.png
+Leaning Close,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Leaning_Close%22_icon.png&width=108,data/icons/Marius_von_Hagen_Leaning_Close.png
+Colors of Dreams,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Colors_of_Dreams%22_icon.png&width=108,data/icons/Marius_von_Hagen_Colors_of_Dreams.png
+Swimming,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Swimming%22_icon.png&width=108,data/icons/Marius_von_Hagen_Swimming.png
+Under His Spell,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Under_His_Spell%22_icon.png&width=108,data/icons/Marius_von_Hagen_Under_His_Spell.png
+Serene Rendezvous,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Serene_Rendezvous%22_icon.png&width=108,data/icons/Marius_von_Hagen_Serene_Rendezvous.png
+Void of Creation,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Void_of_Creation%22_icon.png&width=108,data/icons/Marius_von_Hagen_Void_of_Creation.png
+Gazing,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Gazing%22_icon.png&width=108,data/icons/Marius_von_Hagen_Gazing.png
+Slam Dunking,Marius von Hagen,MR icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Slam_Dunking%22_icon.png&width=108,data/icons/Marius_von_Hagen_Slam_Dunking.png
+Sweet Reward,Marius von Hagen,MR icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Sweet_Reward%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sweet_Reward.png
+Encountering the Unseen,Marius von Hagen,MR icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Encountering_the_Unseen%22_icon.png&width=108,data/icons/Marius_von_Hagen_Encountering_the_Unseen.png
+Gourmet,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Gourmet%22_icon.png&width=108,data/icons/Luke_Pearce_Gourmet.png
+Waiting for You,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Waiting_for_You%22_icon.png&width=108,data/icons/Luke_Pearce_Waiting_for_You.png
+Partner,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Partner%22_icon.png&width=108,data/icons/Luke_Pearce_Partner.png
+Personal Server,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Personal_Server%22_icon.png&width=108,data/icons/Luke_Pearce_Personal_Server.png
+Greetings,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Greetings%22_icon.png&width=108,data/icons/Luke_Pearce_Greetings.png
+Warm Up,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Warm_Up%22_icon.png&width=108,data/icons/Luke_Pearce_Warm_Up.png
+Tiredness,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Tiredness%22_icon.png&width=108,data/icons/Luke_Pearce_Tiredness.png
+Our Secret,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Our_Secret%22_icon.png&width=108,data/icons/Luke_Pearce_Our_Secret.png
+All Ready,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22All_Ready%22_icon.png&width=108,data/icons/Luke_Pearce_All_Ready.png
+Gaze,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Gaze%22_icon.png&width=108,data/icons/Luke_Pearce_Gaze.png
+Quietly Waiting,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Quietly_Waiting%22_icon.png&width=108,data/icons/Luke_Pearce_Quietly_Waiting.png
+Warm Home,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Warm_Home%22_icon.png&width=108,data/icons/Luke_Pearce_Warm_Home.png
+Together,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Together%22_icon.png&width=108,data/icons/Luke_Pearce_Together.png
+Willful Youth,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Willful_Youth%22_icon.png&width=108,data/icons/Luke_Pearce_Willful_Youth.png
+Embarrassed,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Embarrassed%22_icon.png&width=108,data/icons/Luke_Pearce_Embarrassed.png
+Prepared,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Prepared%22_icon.png&width=108,data/icons/Luke_Pearce_Prepared.png
+Reunion,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Reunion%22_icon.png&width=108,data/icons/Luke_Pearce_Reunion.png
+Ode to Gallantry,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Ode_to_Gallantry%22_icon.png&width=108,data/icons/Luke_Pearce_Ode_to_Gallantry.png
+Joyful Bounty,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Joyful_Bounty%22_icon.png&width=108,data/icons/Luke_Pearce_Joyful_Bounty.png
+Following the Wind,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Following_the_Wind%22_icon.png&width=108,data/icons/Luke_Pearce_Following_the_Wind.png
+Sweet as Honey,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Sweet_as_Honey%22_icon.png&width=108,data/icons/Luke_Pearce_Sweet_as_Honey.png
+Inner Thoughts,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Inner_Thoughts%22_icon.png&width=108,data/icons/Luke_Pearce_Inner_Thoughts.png
+Thoughts,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Thoughts%22_icon.png&width=108,data/icons/Luke_Pearce_Thoughts.png
+Fearless,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Fearless%22_icon.png&width=108,data/icons/Luke_Pearce_Fearless.png
+Relaxed,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Relaxed%22_icon.png&width=108,data/icons/Luke_Pearce_Relaxed.png
+Bloom's Vow,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Bloom%27s_Vow%22_icon.png&width=108,data/icons/Luke_Pearce_Bloom_s_Vow.png
+Call to Dance,Luke Pearce,R icon,Logic,https://tot.wiki/thumb.php?f=Luke_%22Call_to_Dance%22_icon.png&width=108,data/icons/Luke_Pearce_Call_to_Dance.png
+A Thousand Autumns,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22A_Thousand_Autumns%22_icon.png&width=108,data/icons/Luke_Pearce_A_Thousand_Autumns.png
+Heart-Thumping,Luke Pearce,R icon,Empathy,https://tot.wiki/thumb.php?f=Luke_%22Heart-Thumping%22_icon.png&width=108,data/icons/Luke_Pearce_Heart-Thumping.png
+Supremacy,Luke Pearce,R icon,Intuition,https://tot.wiki/thumb.php?f=Luke_%22Supremacy%22_icon.png&width=108,data/icons/Luke_Pearce_Supremacy.png
+Back to Business,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Back_to_Business%22_icon.png&width=108,data/icons/Artem_Wing_Back_to_Business.png
+Rain Drops,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Rain_Drops%22_icon.png&width=108,data/icons/Artem_Wing_Rain_Drops.png
+Lock and Load,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Lock_and_Load%22_icon.png&width=108,data/icons/Artem_Wing_Lock_and_Load.png
+Picking a Gift,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Picking_a_Gift%22_icon.png&width=108,data/icons/Artem_Wing_Picking_a_Gift.png
+Patience is a Virtue,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Patience_Is_a_Virtue%22_icon.png&width=108,data/icons/Artem_Wing_Patience_is_a_Virtue.png
+Taking a Breather,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Taking_a_Breather%22_icon.png&width=108,data/icons/Artem_Wing_Taking_a_Breather.png
+Questioning,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Questioning%22_icon.png&width=108,data/icons/Artem_Wing_Questioning.png
+Tailored Suit,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Tailored_Suit%22_icon.png&width=108,data/icons/Artem_Wing_Tailored_Suit.png
+Here for You,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Here_For_You%22_icon.png&width=108,data/icons/Artem_Wing_Here_for_You.png
+My Heart is Flying,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22My_Heart_Is_Flying%22_icon.png&width=108,data/icons/Artem_Wing_My_Heart_is_Flying.png
+With You,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22With_You%22_icon.png&width=108,data/icons/Artem_Wing_With_You.png
+Sweet Tastes,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Sweet_Tastes%22_icon.png&width=108,data/icons/Artem_Wing_Sweet_Tastes.png
+Deduction,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Deduction%22_icon.png&width=108,data/icons/Artem_Wing_Deduction.png
+Systematic,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Systematic%22_icon.png&width=108,data/icons/Artem_Wing_Systematic.png
+Sidelong Glance,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Sidelong_Glance%22_icon.png&width=108,data/icons/Artem_Wing_Sidelong_Glance.png
+Your Voice,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Your_Voice%22_icon.png&width=108,data/icons/Artem_Wing_Your_Voice.png
+Weight of Responsibility,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Weight_of_Responsibility%22_icon.png&width=108,data/icons/Artem_Wing_Weight_of_Responsibility.png
+Gift of Sweetness,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Gift_of_Sweetness%22_icon.png&width=108,data/icons/Artem_Wing_Gift_of_Sweetness.png
+In the Rain,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22In_the_Rain%22_icon.png&width=108,data/icons/Artem_Wing_In_the_Rain.png
+Rising Star,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Rising_Star%22_icon.png&width=108,data/icons/Artem_Wing_Rising_Star.png
+Full of Love,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Full_of_Love%22_icon.png&width=108,data/icons/Artem_Wing_Full_of_Love.png
+Invisible Desire,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Invisible_Desire%22_icon.png&width=108,data/icons/Artem_Wing_Invisible_Desire.png
+Discerning,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Discerning%22_icon.png&width=108,data/icons/Artem_Wing_Discerning.png
+Flavor,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Flavor%22_icon.png&width=108,data/icons/Artem_Wing_Flavor.png
+Admiration,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Admiration%22_icon.png&width=108,data/icons/Artem_Wing_Admiration.png
+Lingering Mark,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Lingering_Mark%22_icon.png&width=108,data/icons/Artem_Wing_Lingering_Mark.png
+Calming the Waves,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Calming_the_Waves%22_icon.png&width=108,data/icons/Artem_Wing_Calming_the_Waves.png
+Aspirations,Artem Wing,R icon,Empathy,https://tot.wiki/thumb.php?f=Artem_%22Aspirations%22_icon.png&width=108,data/icons/Artem_Wing_Aspirations.png
+Youthful Chapter,Artem Wing,R icon,Intuition,https://tot.wiki/thumb.php?f=Artem_%22Youthful_Chapter%22_icon.png&width=108,data/icons/Artem_Wing_Youthful_Chapter.png
+Deja Vu,Artem Wing,R icon,Logic,https://tot.wiki/thumb.php?f=Artem_%22Deja_Vu%22_icon.png&width=108,data/icons/Artem_Wing_Deja_Vu.png
+Remaining in Control,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Remaining_in_Control%22_icon.png&width=108,data/icons/Vyn_Richter_Remaining_in_Control.png
+Leisure Time,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Leisure_Time%22_icon.png&width=108,data/icons/Vyn_Richter_Leisure_Time.png
+Observations,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Observations%22_icon.png&width=108,data/icons/Vyn_Richter_Observations.png
+Gentlemanly Courtesy,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Gentlemanly_Courtesy%22_icon.png&width=108,data/icons/Vyn_Richter_Gentlemanly_Courtesy.png
+A Hobby of Mine,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22A_Hobby_of_Mine%22_icon.png&width=108,data/icons/Vyn_Richter_A_Hobby_of_Mine.png
+Elegance,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Elegance%22_icon.png&width=108,data/icons/Vyn_Richter_Elegance.png
+Unexpected Letter,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Unexpected_Letter%22_icon.png&width=108,data/icons/Vyn_Richter_Unexpected_Letter.png
+Unexpected Run-In,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Unexpected_Run-In%22_icon.png&width=108,data/icons/Vyn_Richter_Unexpected_Run-In.png
+Another Side of You,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Another_Side_of_You%22_icon.png&width=108,data/icons/Vyn_Richter_Another_Side_of_You.png
+Dressed Up,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Dressed_Up%22_icon.png&width=108,data/icons/Vyn_Richter_Dressed_Up.png
+Secret Gift,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Secret_Gift%22_icon.png&width=108,data/icons/Vyn_Richter_Secret_Gift.png
+Wish,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Wish%22_icon.png&width=108,data/icons/Vyn_Richter_Wish.png
+Whole New Experience,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Whole_New_Experience%22_icon.png&width=108,data/icons/Vyn_Richter_Whole_New_Experience.png
+Fated Invitation,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Fated_Invitation%22_icon.png&width=108,data/icons/Vyn_Richter_Fated_Invitation.png
+Abundant Laughter,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Abundant_Laughter%22_icon.png&width=108,data/icons/Vyn_Richter_Abundant_Laughter.png
+Falling,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Falling%22_icon.png&width=108,data/icons/Vyn_Richter_Falling.png
+Sweet Taste,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Sweet_Taste%22_icon.png&width=108,data/icons/Vyn_Richter_Sweet_Taste.png
+Deep in Blossoms,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Deep_in_Blossoms%22_icon.png&width=108,data/icons/Vyn_Richter_Deep_in_Blossoms.png
+Bright Flame,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Bright_Flame%22_icon.png&width=108,data/icons/Vyn_Richter_Bright_Flame.png
+Dream Building,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Dream_Building%22_icon.png&width=108,data/icons/Vyn_Richter_Dream_Building.png
+Staying Together,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Staying_Together%22_icon.png&width=108,data/icons/Vyn_Richter_Staying_Together.png
+Taste,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Taste%22_icon.png&width=108,data/icons/Vyn_Richter_Taste.png
+Hidden Agenda,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Hidden_Agenda%22_icon.png&width=108,data/icons/Vyn_Richter_Hidden_Agenda.png
+Strategic,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Strategic%22_icon.png&width=108,data/icons/Vyn_Richter_Strategic.png
+Musing,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Musing%22_icon.png&width=108,data/icons/Vyn_Richter_Musing.png
+Candlelight,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Candlelight%22_icon.png&width=108,data/icons/Vyn_Richter_Candlelight.png
+Cold as Snow,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Cold_as_Snow%22_icon.png&width=108,data/icons/Vyn_Richter_Cold_as_Snow.png
+Joy of Meeting,Vyn Richter,R icon,Intuition,https://tot.wiki/thumb.php?f=Vyn_%22Joy_of_Meeting%22_icon.png&width=108,data/icons/Vyn_Richter_Joy_of_Meeting.png
+Wishes of Time,Vyn Richter,R icon,Logic,https://tot.wiki/thumb.php?f=Vyn_%22Wishes_of_Time%22_icon.png&width=108,data/icons/Vyn_Richter_Wishes_of_Time.png
+Incredible,Vyn Richter,R icon,Empathy,https://tot.wiki/thumb.php?f=Vyn_%22Incredible%22_icon.png&width=108,data/icons/Vyn_Richter_Incredible.png
+Presence,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Presence%22_icon.png&width=108,data/icons/Marius_von_Hagen_Presence.png
+Sudden Occurrence,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Sudden_Occurrence%22_icon.png&width=108,data/icons/Marius_von_Hagen_Sudden_Occurrence.png
+Rhythm,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Rhythm%22_icon.png&width=108,data/icons/Marius_von_Hagen_Rhythm.png
+Invitation,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Invitation%22_icon.png&width=108,data/icons/Marius_von_Hagen_Invitation.png
+Interlude,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Interlude%22_icon.png&width=108,data/icons/Marius_von_Hagen_Interlude.png
+Fully Prepped,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Fully_Prepped%22_icon.png&width=108,data/icons/Marius_von_Hagen_Fully_Prepped.png
+Discussion,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Discussion%22_icon.png&width=108,data/icons/Marius_von_Hagen_Discussion.png
+Half-Time,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Halftime%22_icon.png&width=108,data/icons/Marius_von_Hagen_Half-Time.png
+Practice Makes Perfect,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Practice_Makes_Perfect%22_icon.png&width=108,data/icons/Marius_von_Hagen_Practice_Makes_Perfect.png
+Freeze-Frame,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Freeze-Frame%22_icon.png&width=108,data/icons/Marius_von_Hagen_Freeze-Frame.png
+Myth,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Myth%22_icon.png&width=108,data/icons/Marius_von_Hagen_Myth.png
+Victory Is at Hand,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Victory_Is_at_Hand%22_icon.png&width=108,data/icons/Marius_von_Hagen_Victory_Is_at_Hand.png
+Kingly Praise,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Kingly_Praise%22_icon.png&width=108,data/icons/Marius_von_Hagen_Kingly_Praise.png
+Perfectionist,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Perfectionist%22_icon.png&width=108,data/icons/Marius_von_Hagen_Perfectionist.png
+Hesitation,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Hesitation%22_icon.png&width=108,data/icons/Marius_von_Hagen_Hesitation.png
+Elation,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Elation%22_icon.png&width=108,data/icons/Marius_von_Hagen_Elation.png
+Fated Reunion,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Fated_Reunion%22_icon.png&width=108,data/icons/Marius_von_Hagen_Fated_Reunion.png
+Flower Fragrance,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Flower_Fragrance%22_icon.png&width=108,data/icons/Marius_von_Hagen_Flower_Fragrance.png
+Stamp Relay,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Stamp_Relay%22_icon.png&width=108,data/icons/Marius_von_Hagen_Stamp_Relay.png
+Lost in Thought,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Lost_in_Thought%22_icon.png&width=108,data/icons/Marius_von_Hagen_Lost_in_Thought.png
+Heartfelt Joy,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Heartfelt_Joy%22_icon.png&width=108,data/icons/Marius_von_Hagen_Heartfelt_Joy.png
+Concealed Love,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Concealed_Love%22_icon.png&width=108,data/icons/Marius_von_Hagen_Concealed_Love.png
+Courageous,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Courageous%22_icon.png&width=108,data/icons/Marius_von_Hagen_Courageous.png
+Anticipation,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Anticipation%22_icon.png&width=108,data/icons/Marius_von_Hagen_Anticipation.png
+Fortuitous,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Fortuitous%22_icon.png&width=108,data/icons/Marius_von_Hagen_Fortuitous.png
+Fruit of Promise,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Fruit_of_Promise%22_icon.png&width=108,data/icons/Marius_von_Hagen_Fruit_of_Promise.png
+Youthful Heart,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Youthful_Heart%22_icon.png&width=108,data/icons/Marius_von_Hagen_Youthful_Heart.png
+Upon a Paper Crane,Marius von Hagen,R icon,Intuition,https://tot.wiki/thumb.php?f=Marius_%22Upon_a_Paper_Crane%22_icon.png&width=108,data/icons/Marius_von_Hagen_Upon_a_Paper_Crane.png
+Ceremony,Marius von Hagen,R icon,Empathy,https://tot.wiki/thumb.php?f=Marius_%22Ceremony%22_icon.png&width=108,data/icons/Marius_von_Hagen_Ceremony.png
+Shared Look,Marius von Hagen,R icon,Logic,https://tot.wiki/thumb.php?f=Marius_%22Shared_Look%22_icon.png&width=108,data/icons/Marius_von_Hagen_Shared_Look.png
