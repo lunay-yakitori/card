@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: url('data/background.jpg') no-repeat center center fixed;
+    background-size: cover;
     min-height: 100vh;
     color: #333;
 }
@@ -34,6 +35,85 @@ body {
     opacity: 0.9;
 }
 
+/* Instructions panel */
+.instructions {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #667eea;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 16px 0 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    backdrop-filter: blur(4px);
+}
+
+/* Collapsible summary styling */
+.instructions details > summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.instructions details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.instructions details > summary:before {
+    content: '\25BC';
+    font-size: 0.9rem;
+    color: #667eea;
+    transition: transform 0.2s ease;
+}
+
+.instructions details[open] > summary:before {
+    transform: rotate(0deg);
+}
+
+.instructions details:not([open]) > summary:before {
+    transform: rotate(-90deg);
+}
+
+/* List spacing inside instructions */
+.instructions ol {
+    margin: 12px 0 6px 20px;
+    padding: 0;
+}
+
+.instructions ul {
+    margin: 8px 0 8px 18px;
+    padding: 0;
+}
+
+.instructions li {
+    margin: 4px 0;
+}
+
+.instructions h2 {
+    color: #333;
+    font-size: 1.4rem;
+    margin: 0 0 10px 0;
+}
+
+.instructions p {
+    color: #555;
+    line-height: 1.6;
+    margin: 6px 0;
+}
+
+.instructions p:first-of-type {
+    margin-top: 0;
+}
+
+.instructions p:last-of-type {
+    margin-bottom: 0;
+}
+
 .tabs {
     display: flex;
     background: white;
@@ -49,7 +129,7 @@ body {
     border: none;
     background: transparent;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #666;
     transition: all 0.3s ease;
@@ -85,7 +165,7 @@ body {
     padding: 60px 20px;
 }
 
-.welcome-tab h2 {
+.tab-content h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #667eea;
@@ -105,6 +185,7 @@ body {
 
 .grid-section h3 {
     font-size: 1.5rem;
+    margin-top: 100px;
     margin-bottom: 10px;
     color: #667eea;
 }
@@ -113,6 +194,62 @@ body {
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
+}
+
+/* Enemy Wave Tracker */
+.enemy-wave-tracker {
+    display: grid;
+    grid-template-columns: repeat(var(--wave-columns, 2), 1fr);
+    gap: 12px;
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.enemy-wave-column {
+    display: grid;
+    grid-template-rows: auto repeat(3, 1fr);
+    gap: 10px;
+}
+
+.enemy-wave-title {
+    font-weight: 700;
+    color: #667eea;
+    text-align: center;
+}
+
+.enemy-wave-cell {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.enemy-wave-cell.placeholder {
+    background: transparent;
+    border: 1px dashed transparent;
+}
+
+/* Attribute-based coloring for Enemy Wave Tracker cells */
+.enemy-wave-cell.logic-cell {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border-color: #1976d2;
+}
+
+.enemy-wave-cell.empathy-cell {
+    background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+    border-color: #d32f2f;
+}
+
+.enemy-wave-cell.intuition-cell {
+    background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+    border-color: #388e3c;
 }
 
 .attribute-planner {
@@ -837,9 +974,9 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
-.attribute-dropdown {
+/* .attribute-dropdown {
     background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-}
+} */
 
 /* Filter Status Styles */
 .filter-status {
@@ -1161,4 +1298,53 @@ body {
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
+
+/* Footer Styles */
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    color: #f1f3f5;
+}
+
+.footer p {
+    margin: 6px 0;
+    color: #e9ecef;
+}
+
+.footer a {
+    color: #ffdf6b;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 1px dotted transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+    color: #ffe793;
+    border-bottom-color: currentColor;
+    outline: none;
+}
+
+
+/* Header link styles to match footer */
+.header a {
+    color: #ffdf6b;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 1px dotted transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.header a:hover,
+.header a:focus-visible {
+    color: #ffe793;
+    border-bottom-color: currentColor;
+    outline: none;
+}
 
