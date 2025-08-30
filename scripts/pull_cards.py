@@ -1,3 +1,7 @@
+"""
+python scripts/pull_cards.py
+"""
+
 import os
 import re
 import requests
