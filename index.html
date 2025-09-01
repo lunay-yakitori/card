@@ -10,6 +10,7 @@
     <div class="container">
         <div class="header">
             <h1>Tears of Themis - Debate Card Sequence Arranger</h1>
+            <p>Cards database updated on 2025-08-31</p>
             <p>Website Created by <a href="https://www.hoyolab.com/accountCenter/postList?id=466404617" target="_blank">@Yakitori_UwU</a></p>
             <p>Thank you to <a href="https://www.hoyolab.com/accountCenter?id=363999098" target="_blank">@dodogitu</a> for sharing this method (Their post here: <a href="https://www.hoyolab.com/article/31954175" target="_blank">How to Rearrange Card Sequence | Video Tutorial</a>).</p>
         </div>
@@ -148,12 +149,27 @@
             
             <div class="load-section">
                 <h3>Load Your Card Collection</h3>
-                <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">
-                    Supported format: text files (.txt) with one card name per line
-                </p>
-                <div class="file-input-wrapper">
-                    <input type="file" id="collectionFile" class="file-input" accept=".txt">
-                    <button class="btn btn-primary" onclick="loadCollection()">Load Collection</button>
+                
+                <!-- Option 1: File Upload -->
+                <div class="load-option" style="margin-bottom: 30px; padding: 20px; border: 1px solid #dee2e6; border-radius: 8px; background-color: #f8f9fa;">
+                    <h4 style="margin-top: 0; color: #495057;">Option 1: Upload File</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">
+                        Supported format: text files (.txt) with one card name per line
+                    </p>
+                    <div class="file-input-wrapper">
+                        <input type="file" id="collectionFile" class="file-input" accept=".txt">
+                        <button class="btn btn-primary" onclick="loadCollection()">Load Collection from File</button>
+                    </div>
+                </div>
+
+                <!-- Option 2: Text Input -->
+                <div class="load-option" style="padding: 20px; border: 1px solid #dee2e6; border-radius: 8px; background-color: #f8f9fa;">
+                    <h4 style="margin-top: 0; color: #495057;">Option 2: Paste Card Names</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">
+                        If you cannot easily upload your card collection, you can paste it below. Make sure to have one card name per line.
+                    </p>
+                    <textarea id="collectionText" placeholder="Paste your card names here, one per line...&#10;Example:&#10;Yearning Love&#10;Alluring Gaze&#10;Narrow Road" style="width: 100%; height: 150px; padding: 10px; border: 1px solid #ced4da; border-radius: 4px; font-family: inherit; font-size: 0.9rem; resize: vertical; margin-bottom: 15px;"></textarea>
+                    <button class="btn btn-primary" onclick="loadCollectionFromText()">Load Collection from Text</button>
                 </div>
             </div>
 
@@ -191,8 +207,6 @@
                     <div class="no-cards-message">No cards selected yet. Click the + button on cards to add them to your collection.</div>
                 </div>
                 <button class="btn btn-success" onclick="downloadCollection()" style="margin-top: 20px;">Download Collection</button>
-                <!-- <button class="btn btn-info" onclick="downloadDetailedCollection()" style="margin-top: 20px; margin-left: 10px;">Download Detailed List</button> -->
-                <!-- <button class="btn btn-warning" onclick="debugCardDatabase()" style="margin-top: 20px; margin-left: 10px;">Debug Database</button> -->
             </div>
 
             <div class="filters-section">
@@ -222,6 +236,7 @@
         </div>
 
         <div class="footer">
+            <p>Cards database updated on 2025-08-31</p>
             <p>Website Created by <a href="https://www.hoyolab.com/accountCenter/postList?id=466404617" target="_blank">@Yakitori_UwU</a></p>
             <p>Thank you to <a href="https://www.hoyolab.com/accountCenter?id=363999098" target="_blank">@dodogitu</a> for sharing this method (Their post here: <a href="https://www.hoyolab.com/article/31954175" target="_blank">How to Rearrange Card Sequence | Video Tutorial</a>).</p>
         </div>
@@ -690,6 +705,10 @@
                                     </div>
                                     <div class="grid-card-name">${card.name}</div>
                                     <div class="grid-card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                                    <div class="grid-card-skill">
+                                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                                    </div>
                                 </div>
                             `;
                         } else {
@@ -738,8 +757,7 @@
             
             // Check if we're in portrait mode on mobile
             const isPortrait = window.innerHeight > window.innerWidth && window.innerWidth <= 768;
-            console.log('Attribute Planner - Portrait mode:', isPortrait, 'Dimensions:', window.innerWidth, 'x', window.innerHeight);
-            
+
             if (isPortrait) {
                 // Portrait mode: 15x2 grid (15 rows, 2 columns)
                 // Left column: attributes, Right column: cards
@@ -821,6 +839,10 @@
                                     ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
                                 </div>
                                 <div class="attribute-planner-card-name">${card.name}</div>
+                                <div class="attribute-planner-card-skill">
+                                    ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                                    <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                                </div>
                             </div>
                         `;
                         cardCell.onclick = () => openCardModalForAttributePlanner(index);
@@ -921,6 +943,10 @@
                                             ${card.localPath ? `<img src="${card.localPath}" alt="${card.name}">` : 'No Image'}
                                         </div>
                                         <div class="attribute-planner-card-name">${card.name}</div>
+                                        <div class="attribute-planner-card-skill">
+                                            ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                                            <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                                        </div>
                                     </div>
                                 `;
                                 cell.onclick = () => openCardModalForAttributePlanner(index);
@@ -1029,6 +1055,10 @@
                                     </div>
                                     <div class="grid-card-name">${card.name}</div>
                                     <div class="grid-card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                                    <div class="grid-card-skill">
+                                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                                    </div>
                                 </div>
                             `;
                         } else {
@@ -1210,6 +1240,10 @@
                     </div>
                     <div class="modal-card-name">${card.name}</div>
                     <div class="modal-card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                    <div class="modal-card-skill">
+                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                    </div>
                 </div>
             `).join('');
         }
@@ -1229,14 +1263,6 @@
             
             // Use userCollection instead of allCards for filtering in the welcome tab
             const cardsToFilter = currentGridCell !== null ? userCollection : allCards;
-            
-            console.log('Filtering modal cards:', {
-                attributeFilter,
-                searchFilter,
-                totalCards: cardsToFilter.length,
-                currentGridCell,
-                currentGridId
-            });
             
             const filtered = cardsToFilter.filter(card => {
                 const matchesAttribute = !attributeFilter || card.attribute === attributeFilter;
@@ -1605,13 +1631,16 @@
                             character: values[1],
                             rarity: values[2],
                             attribute: values[3],
-                            iconUrl: values[4],
-                            localPath: values[5]
+                            firstSkill: values[4],
+                            firstSkillIcon: values[5],
+                            firstSkillDisplayName: values[6],
+                            iconUrl: values[7],
+                            localPath: values[8]
                         };
                         allCards.push(card);
                     }
                 }
-                
+
                 displayCreateCards(allCards);
             } catch (error) {
                 console.error('Error loading cards:', error);
@@ -1647,6 +1676,10 @@
                     </div>
                     <div class="card-name">${card.name}</div>
                     <div class="card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                    <div class="card-skill">
+                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="Skill" class="skill-icon">` : ''}
+                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                    </div>
                     <button class="add-card-btn" onclick="addCardToCollection('${card.name}')" title="Add to collection">+</button>
                 </div>
             `).join('');
@@ -1709,6 +1742,10 @@
                     </div>
                     <div class="card-name">${card.name}</div>
                     <div class="card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                    <div class="card-skill">
+                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="${card.firstSkill}" class="skill-icon">` : ''}
+                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                    </div>
                     <button class="add-card-btn" onclick="removeCardFromCollection('${card.name}')" title="Remove from collection" style="background: #dc3545;">-</button>
                 </div>
             `).join('');
@@ -1735,15 +1772,12 @@
                     } else if (file.name.endsWith('.txt')) {
                         // Ensure allCards is loaded first
                         if (allCards.length === 0) {
-                            console.log('Loading all cards first...');
                             await loadAllCards();
                         }
                         
                         // Parse text file - each line is a card name
                         const cardNames = content.split('\n').filter(line => line.trim() !== '');
-                        console.log('Loading text file with card names:', cardNames);
-                        console.log('Available cards in database:', allCards.length);
-                        
+
                         // Find matching cards from the database with more flexible matching
                         userCollection = cardNames.map(cardName => {
                             const trimmedName = cardName.trim();
@@ -1763,7 +1797,6 @@
                             }
                             
                             if (card) {
-                                console.log(`Found card: ${card.name} (${card.rarity}, ${card.attribute})`);
                                 return card;
                             } else {
                                 // If card not found, create a placeholder with just the name
@@ -1776,8 +1809,6 @@
                                 };
                             }
                         });
-                        
-                        console.log('Final collection loaded:', userCollection);
                     } else {
                         throw new Error('Unsupported file type');
                     }
@@ -1796,6 +1827,72 @@
                 }
             };
             reader.readAsText(file);
+        }
+
+        // Load collection from text input
+        async function loadCollectionFromText() {
+            const textInput = document.getElementById('collectionText');
+            const content = textInput.value.trim();
+            
+            if (!content) {
+                alert('Please enter card names in the text box first.');
+                return;
+            }
+
+            try {
+                // Ensure allCards is loaded first
+                if (allCards.length === 0) {
+                    await loadAllCards();
+                }
+                
+                // Parse text content - each line is a card name
+                const cardNames = content.split('\n').filter(line => line.trim() !== '');
+
+                // Find matching cards from the database with more flexible matching
+                userCollection = cardNames.map(cardName => {
+                    const trimmedName = cardName.trim();
+                    
+                    // Try exact match first
+                    let card = allCards.find(c => c.name === trimmedName);
+                    
+                    // If no exact match, try case-insensitive match
+                    if (!card) {
+                        card = allCards.find(c => c.name.toLowerCase() === trimmedName.toLowerCase());
+                    }
+                    
+                    // If still no match, try partial match
+                    if (!card) {
+                        card = allCards.find(c => c.name.toLowerCase().includes(trimmedName.toLowerCase()) || 
+                                               trimmedName.toLowerCase().includes(c.name.toLowerCase()));
+                    }
+                    
+                    if (card) {
+                        return card;
+                    } else {
+                        // If card not found, create a placeholder with just the name
+                        console.warn(`Card not found: ${trimmedName}`);
+                        return {
+                            name: trimmedName,
+                            rarity: 'Unknown',
+                            attribute: 'Unknown',
+                            localPath: null
+                        };
+                    }
+                });
+                
+                filterCards();
+                updateCollectionStatus();
+                // Sync Create/Edit selected cards with the loaded collection
+                selectedCards = Array.isArray(userCollection) ? [...userCollection] : [];
+                displaySelectedCards();
+                
+                // Clear the text input after successful load
+                textInput.value = '';
+                
+            } catch (error) {
+                console.error('Error loading collection from text:', error);
+                alert('Error processing card names. Please make sure each card name is on a separate line.');
+            }
         }
 
         // Filter cards in collection tab
@@ -1841,6 +1938,10 @@
                     </div>
                     <div class="card-name">${card.name}</div>
                     <div class="card-attribute attribute-${card.attribute.toLowerCase()}">${getAttributeDisplayName(card.attribute)}</div>
+                    <div class="card-skill">
+                        ${card.firstSkillIcon ? `<img src="${card.firstSkillIcon}" alt="${card.firstSkill}" class="skill-icon">` : ''}
+                        <span class="skill-name">${card.firstSkillDisplayName || ''}</span>
+                    </div>
                 </div>
             `).join('');
         }
@@ -1974,31 +2075,6 @@
             
             // Store the download type for the confirm function
             modal.dataset.downloadType = 'detailed';
-        }
-
-        // Debug function to see what's in the card database
-        function debugCardDatabase() {
-            console.log('=== CARD DATABASE DEBUG ===');
-            console.log('Total cards in database:', allCards.length);
-            if (allCards.length > 0) {
-                console.log('Sample cards:');
-                allCards.slice(0, 5).forEach((card, index) => {
-                    console.log(`${index + 1}. ${card.name} - ${card.rarity} - ${card.attribute} - ${card.localPath ? 'Has Image' : 'No Image'}`);
-                });
-                
-                // Check for cards with specific names
-                const testNames = ['Blossom Encounters', 'blossom encounters', 'Blossom'];
-                testNames.forEach(testName => {
-                    const found = allCards.find(c => c.name === testName);
-                    console.log(`Searching for "${testName}":`, found ? 'FOUND' : 'NOT FOUND');
-                    if (found) {
-                        console.log('  Details:', found);
-                    }
-                });
-            } else {
-                console.log('No cards loaded yet. Try loading the create tab first.');
-            }
-            console.log('========================');
         }
 
         // Download collection as detailed text (name + rarity + attribute)
